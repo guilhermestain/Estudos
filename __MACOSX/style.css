@@ -1,0 +1,81 @@
+/*Limpar formatação pdrão*/
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-size:16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f3f3f3;
+}
+#navegacao{
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+    height:45px;
+}
+#area{
+width: 720px;
+margin: 0 auto;
+border: 1px;
+}
+#area-principal{
+    width: 720px;
+    margin: 10px auto 10px auto;
+    }
+#postagem{
+    background: #fff;
+    padding: 10px;
+}
+.data-postagem{
+font-size: 14px;
+border-bottom: 1px solid #f4f4f4;
+display:block;
+padding-bottom: 10px;
+margin-bottom: 10px;
+
+}
+#logo{
+float: left;
+}
+#menu{
+    float: right;
+    border: 1px;
+    font-size:12px;
+    padding: 10px;
+}
+a:link{
+    color:#838383;
+}
+a:active{
+    color:#535353;
+}
+a:visited{
+    color:#838383;
+}
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+a:hover{
+    color:white;
+    background: #b9c941;
+}
+#h2{
+    color:#b9c941;
+}
+
+/*Classes*/
+.verde{
+    color:#b9c941;
+}
+.img-postagem{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+.postado{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display:block;
+    margin-top: 10px;
+    font-size: 14px;
+}
